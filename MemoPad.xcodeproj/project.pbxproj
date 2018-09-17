@@ -14,6 +14,8 @@
 		4562F767214EBC6700A498AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4562F765214EBC6700A498AB /* LaunchScreen.storyboard */; };
 		4562F772214EBC6700A498AB /* MemoPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4562F771214EBC6700A498AB /* MemoPadTests.swift */; };
 		4562F77D214EBC6700A498AB /* MemoPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4562F77C214EBC6700A498AB /* MemoPadUITests.swift */; };
+		4562F78B214EBCC300A498AB /* MemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4562F78A214EBCC300A498AB /* MemoViewController.swift */; };
+		4562F78D214EC95500A498AB /* yunomi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4562F78C214EC95500A498AB /* yunomi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4562F778214EBC6700A498AB /* MemoPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4562F77C214EBC6700A498AB /* MemoPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoPadUITests.swift; sourceTree = "<group>"; };
 		4562F77E214EBC6700A498AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4562F78A214EBCC300A498AB /* MemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoViewController.swift; sourceTree = "<group>"; };
+		4562F78C214EC95500A498AB /* yunomi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yunomi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +101,10 @@
 		4562F75B214EBC6500A498AB /* MemoPad */ = {
 			isa = PBXGroup;
 			children = (
+				4562F78C214EC95500A498AB /* yunomi.png */,
 				4562F75C214EBC6500A498AB /* AppDelegate.swift */,
 				4562F75E214EBC6500A498AB /* ViewController.swift */,
+				4562F78A214EBCC300A498AB /* MemoViewController.swift */,
 				4562F760214EBC6500A498AB /* Main.storyboard */,
 				4562F763214EBC6700A498AB /* Assets.xcassets */,
 				4562F765214EBC6700A498AB /* LaunchScreen.storyboard */,
@@ -231,6 +237,7 @@
 			files = (
 				4562F767214EBC6700A498AB /* LaunchScreen.storyboard in Resources */,
 				4562F764214EBC6700A498AB /* Assets.xcassets in Resources */,
+				4562F78D214EC95500A498AB /* yunomi.png in Resources */,
 				4562F762214EBC6500A498AB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				4562F75F214EBC6500A498AB /* ViewController.swift in Sources */,
 				4562F75D214EBC6500A498AB /* AppDelegate.swift in Sources */,
+				4562F78B214EBCC300A498AB /* MemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
